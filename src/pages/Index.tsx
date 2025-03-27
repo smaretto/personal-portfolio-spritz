@@ -69,7 +69,7 @@ const Index = () => {
       {/* Contact Section */}
       <div className="mt-auto mb-4 text-left animate-fade-in">
         <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[80%]">
-          Need some product design work, design strategy or management help?
+          Need a product design leader or a fractional freelancer?
           <br />
           <a
             href="mailto:sylvain.maretto@gmail.com"
