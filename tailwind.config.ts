@@ -20,9 +20,9 @@ export default {
 		},
 		extend: {
 			fontSize: {
-				'bio-desktop': '6vw',
+				'bio-desktop': '5vw',
 				'bio-mobile': '8vw',
-				'contact-desktop': '4vw',
+				'contact-desktop': '3vw',
 				'contact-mobile': '6vw',
 			},
 			fontFamily: {

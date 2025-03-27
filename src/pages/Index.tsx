@@ -32,8 +32,7 @@ const Index = () => {
       {/* Bio Section */}
       <div className="animate-fade-in text-left">
         <h1 className="text-bio-mobile md:text-bio-desktop font-inter font-light leading-[80%]">
-          Based in Berlin, Sylvain Maretto is a Product Design Director & Product Generalist. 
-          Previously he held IC, Lead and Director positions at{' '}
+        Based in Berlin, Sylvain Maretto is a Product Design Director. Previously he held senior & leader positions at{' '}
           <ClientName 
             name="Holoplot" 
             imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
