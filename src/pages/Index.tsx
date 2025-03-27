@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { Linkedin, Mail } from 'lucide-react';
 import ClientName from '@/components/ClientName';
 import CustomCursor from '@/components/CustomCursor';
 import AnimatedBackground from '@/components/AnimatedBackground';
@@ -26,13 +25,13 @@ const Index = () => {
   };
 
   return (
-    <div className="h-screen w-screen flex flex-col justify-between p-6 md:p-12 overflow-hidden">
+    <div className="h-screen w-screen flex flex-col justify-between p-2 md:p-4 overflow-hidden">
       {/* Animated Background */}
       <AnimatedBackground />
       
       {/* Bio Section */}
-      <div className="max-w-4xl mx-auto animate-fade-in">
-        <h1 className="text-xl md:text-2xl lg:text-3xl font-inter font-light leading-relaxed">
+      <div className="animate-fade-in text-left">
+        <h1 className="text-bio-mobile md:text-bio-desktop font-inter font-light leading-[80%]">
           Based in Berlin, Sylvain Maretto is a Product Design Director & Product Generalist. 
           Previously he held IC, Lead and Director positions at{' '}
           <ClientName 
@@ -69,8 +68,8 @@ const Index = () => {
       </div>
       
       {/* Contact Section */}
-      <div className="mt-auto mb-4 md:mb-8 text-center animate-fade-in">
-        <p className="text-lg md:text-xl font-inter font-light">
+      <div className="mt-auto mb-4 text-left animate-fade-in">
+        <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[80%]">
           Need some product design work, design strategy or management help?
           <br />
           <a
@@ -78,9 +77,7 @@ const Index = () => {
             className="contact-link"
             onMouseEnter={() => setShowCustomCursor(false)}
           >
-            <span className="flex items-center justify-center gap-1 mt-4 md:inline md:mt-0">
-              <Mail className="inline-block w-4 h-4 md:mr-1" /> Email me
-            </span>
+            Email me
           </a>
           {' '} or {' '}
           <a 
@@ -90,9 +87,7 @@ const Index = () => {
             className="contact-link"
             onMouseEnter={() => setShowCustomCursor(false)}
           >
-            <span className="flex items-center justify-center gap-1 mt-4 md:inline md:mt-0">
-              <Linkedin className="inline-block w-4 h-4 md:mr-1" /> linkedin
-            </span>
+            linkedin
           </a>
         </p>
       </div>

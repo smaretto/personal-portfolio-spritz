@@ -19,6 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			fontSize: {
+				'bio-desktop': '6vw',
+				'bio-mobile': '8vw',
+				'contact-desktop': '4vw',
+				'contact-mobile': '6vw',
+			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
 			},
