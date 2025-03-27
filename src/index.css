@@ -59,14 +59,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    overflow: hidden;
-  }
-  
-  .light-particle {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    mix-blend-mode: overlay;
+    background-color: #FFF9E3;
   }
   
   .client-name {
@@ -82,8 +75,8 @@
     @apply fixed pointer-events-none opacity-0 z-50 rounded-md shadow-lg;
     transition: opacity 0.2s ease, transform 0.1s ease;
     transform: translate(-50%, -50%) scale(0.95);
-    width: 340px;
-    height: 180px;
+    width: 25vw;
+    height: auto;
   }
   
   .custom-cursor.visible {

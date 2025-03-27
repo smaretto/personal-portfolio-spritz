@@ -36,31 +36,31 @@ const Index = () => {
           Previously he held IC, Lead and Director positions at{' '}
           <ClientName 
             name="Holoplot" 
-            imageSrc={fallbackImages.holoplot} 
+            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           />, {' '}
           <ClientName 
             name="Zalando" 
-            imageSrc={fallbackImages.zalando} 
+            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           />, {' '}
           <ClientName 
             name="Omio" 
-            imageSrc={fallbackImages.omio} 
+            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           />, {' '}
           <ClientName 
             name="McCann" 
-            imageSrc={fallbackImages.mccann} 
+            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           /> or {' '}
           <ClientName 
             name="Renault-Nissan" 
-            imageSrc={fallbackImages.renaultNissan} 
+            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           />.
