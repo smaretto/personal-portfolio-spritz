@@ -85,15 +85,6 @@
   }
   
   .contact-link {
-    @apply inline-block relative mx-1 text-[#1B1A1A] transition-colors;
-  }
-  
-  .contact-link:after {
-    content: '';
-    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-[#FFAA85] transition-all duration-300 ease-in-out;
-  }
-  
-  .contact-link:hover:after {
-    @apply w-full;
+    @apply inline-block relative mx-1 text-[#1B1A1A] cursor-pointer;
   }
 }
