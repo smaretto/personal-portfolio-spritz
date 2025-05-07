@@ -69,7 +69,7 @@ const Index = () => {
       {/* Contact Section */}
       <div className="mt-auto mb-4 text-left animate-fade-in">
         <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[90%] mb-[1vw]">
-          Need some product design leadership or consultancy?
+          Need some product design leadership or consulting?
         </p>
         <div className="flex flex-wrap gap-4">
           <a
