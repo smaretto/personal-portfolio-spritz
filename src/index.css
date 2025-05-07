@@ -98,13 +98,21 @@
   .contact-button {
     @apply inline-flex text-[#E1FF9F] bg-[#0E1600] px-[2.2vw] py-[1.8vw] rounded-[0.8vw] cursor-pointer uppercase font-black text-[1.5vw];
     font-family: 'Inter', sans-serif;
-    padding-right: min(24px);
-    padding-left: min(24px);
-    padding-top: min(18px);
-    padding-bottom: min(18px);
-    font-size: min(24px);
-    border-radius: min(11px):
   }
+
+@media only screen 
+and (max-device-width: 600px)
+ { 
+   .contact-button 
+  {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 24px;
+    border-radius: 11px:
+  }
+ }
 
   .non-interactive-text {
     @apply font-normal italic cursor-default;
