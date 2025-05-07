@@ -73,8 +73,9 @@
   }
   
   .client-name {
-    @apply text-black relative normal inline-block cursor-none font-black;
+    @apply text-black relative inline-block cursor-none font-black;
     transition: all 0.2s ease;
+    font-style: normal;
   }
   
   .client-name:hover {
