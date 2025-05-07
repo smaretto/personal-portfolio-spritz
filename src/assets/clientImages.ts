@@ -6,7 +6,7 @@
 export const clientImages = {
   holoplot: '/images/holoplot.png',
   zalando: '/images/zalando.png',
-  omio: '/images/omio.png',
+  tourradar: '/images/tourradar.png',
   mccann: '/images/mccann.png',
   renaultNissan: '/images/renault-nissan.png'
 };
