@@ -41,12 +41,12 @@ const Index = () => {
           />, {' '}
           <ClientName 
             name="Zalando" 
-            imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
+            videoSrc="images/Zalando.mp4" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
           />, {' '}
           <ClientName 
-            name="Omio" 
+            name="TourRadar" 
             imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
             onMouseEnter={handleMouseEnter} 
             onMouseLeave={handleMouseLeave} 
