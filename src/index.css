@@ -96,7 +96,7 @@
   }
   
   .contact-button {
-    @apply inline-flex text-[#E1FF9F] bg-[#0E1600] px-[1.8vw] py-[2.2vw] rounded-[0.8vw] cursor-pointer uppercase font-black tracking-[-2px] text-[1.5vw];
+    @apply inline-flex text-[#E1FF9F] bg-[#0E1600] px-[2.2vw] py-[1.8vw] rounded-[0.8vw] cursor-pointer uppercase font-black tracking-[-2px] text-[1.5vw];
     font-family: 'Inter', sans-serif;
   }
 
