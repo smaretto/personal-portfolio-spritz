@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -48,6 +48,7 @@
 
   body {
     @apply bg-[#FFF9E3] text-[#1B1A1A] font-inter antialiased leading-[90%];
+    cursor: default;
   }
 }
 
@@ -63,7 +64,7 @@
   }
   
   .client-name {
-    @apply text-[#FFAA85] relative inline-block cursor-none;
+    @apply text-black relative inline-block cursor-none font-black;
     transition: all 0.2s ease;
   }
   
@@ -86,5 +87,9 @@
   
   .contact-link {
     @apply inline-block relative mx-1 text-[#1B1A1A] cursor-pointer;
+  }
+
+  .non-interactive-text {
+    @apply font-normal italic cursor-default;
   }
 }

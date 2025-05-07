@@ -31,8 +31,8 @@ const Index = () => {
       
       {/* Bio Section */}
       <div className="animate-fade-in text-left">
-        <h1 className="text-bio-mobile md:text-bio-desktop font-inter font-light leading-[80%]">
-        Based in Berlin, Sylvain Maretto is a Product Design Director. Previously he held senior & leadership positions at{' '}
+        <h1 className="text-bio-mobile md:text-bio-desktop font-inter non-interactive-text leading-[90%]">
+          Based in Berlin, Sylvain Maretto is a Product Design Director. Previously he held senior & leadership positions at{' '}
           <ClientName 
             name="Holoplot" 
             imageSrc="lovable-uploads/6d419859-837e-40cd-a567-22c3401f6e30.png" 
@@ -67,8 +67,8 @@ const Index = () => {
       </div>
       
       {/* Contact Section */}
-      <div className="mt-auto mb-4 text-left animate-fade-in">
-        <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[80%]">
+      <div className="mt-auto mb-4 text-left animate-fade-in cursor-default">
+        <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[90%]">
           Need a product design leader or a fractional freelancer?
           <br />
           <a
