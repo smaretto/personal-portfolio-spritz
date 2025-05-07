@@ -103,6 +103,7 @@
     padding-top: min(18px);
     padding-bottom: min(18px);
     font-size: min(24px);
+    border-radius: min(11px):
   }
 
   .non-interactive-text {
