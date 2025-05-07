@@ -67,28 +67,28 @@ const Index = () => {
       </div>
       
       {/* Contact Section */}
-      <div className="mt-auto mb-4 text-left animate-fade-in cursor-default">
-        <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[90%]">
-          Need a product design leader or a fractional freelancer?
-          <br />
+      <div className="mt-auto mb-4 text-left animate-fade-in">
+        <p className="text-contact-mobile md:text-contact-desktop font-inter font-light leading-[90%] mb-[1vw]">
+          Need some product design leadership or consultancy?
+        </p>
+        <div className="flex flex-wrap gap-4">
           <a
             href="mailto:sylvain.maretto@gmail.com"
-            className="contact-link"
+            className="contact-button"
             onMouseEnter={() => setShowCustomCursor(false)}
           >
-            Email me
+            EMAIL ME
           </a>
-          {' '} or {' '}
           <a 
             href="https://www.linkedin.com/in/sylvainmaretto/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="contact-link"
+            className="contact-button"
             onMouseEnter={() => setShowCustomCursor(false)}
           >
-            linkedin
+            LINKEDIN
           </a>
-        </p>
+        </div>
       </div>
       
       {/* Custom Cursor - only on non-mobile */}
