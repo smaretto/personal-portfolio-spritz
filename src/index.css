@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 
 @tailwind base;
@@ -64,7 +63,7 @@
   }
   
   .client-name {
-    @apply text-black relative inline-block cursor-none font-black font-normal;
+    @apply text-black relative inline-block cursor-none font-black;
     transition: all 0.2s ease;
   }
   
