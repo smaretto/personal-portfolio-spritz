@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 
 @tailwind base;
@@ -59,7 +60,17 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #FFF9E3;
+    background-color: #D5EEAA;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
   }
   
   .client-name {
