@@ -78,9 +78,6 @@
     font-style: normal;
   }
   
-  .client-name:hover {
-    @apply text-[#FFAA85]/80;
-  }
 
   .custom-cursor {
     @apply fixed pointer-events-none opacity-0 z-50 rounded-md shadow-lg;
