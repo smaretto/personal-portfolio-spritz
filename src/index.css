@@ -64,7 +64,7 @@
   }
   
   .client-name {
-    @apply text-black relative inline-block cursor-none font-black;
+    @apply text-black relative inline-block cursor-none font-black font-normal;
     transition: all 0.2s ease;
   }
   
