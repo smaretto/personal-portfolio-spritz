@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
 
 @tailwind base;
@@ -93,8 +94,9 @@
   }
   
   .contact-button {
-    @apply inline-flex text-[#E1FF9F] bg-[#0E1600] px-[2.2vw] py-[1.8vw] rounded-[0.8vw] cursor-pointer uppercase font-black text-[1.5vw];
+    @apply inline-flex text-[#E1FF9F] bg-[#0E1600] px-[2.2vw] py-[1.8vw] cursor-pointer uppercase font-black text-[1.5vw];
     font-family: 'Inter', sans-serif;
+    border-radius: 15px;
   }
 
 @media only screen 
@@ -107,7 +109,7 @@ and (max-device-width: 600px)
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 24px;
-    border-radius: 11px:
+    border-radius: 15px;
   }
  }
 
